@@ -19,10 +19,8 @@ public class Exercise10 {
         while (!Objects.equals(color1, "azul") || !Objects.equals(color2, "azul")){
             color1 = getBall();
             color2 = getBall();
-
-            System.out.println("Pelotas: " + color1 + " , " + color2);
         }
-        System.out.println("Fin del proceso.");
+        System.out.println("Fin del proceso. Pelotas: " + color1 + "," + color2);
     }
 
     //TODO ↓
